@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Home</title></head>
+<body>
+<h1>Welcome</h1>
+<form action="/users" method="post">
+    <input type="text" name="name" placeholder="Enter name" required />
+    <button type="submit">Add User</button>
+</form>
+<a href="/users">View Users</a>
+</body>
+</html>
